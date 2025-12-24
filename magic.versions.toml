@@ -1,0 +1,40 @@
+[versions]
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+navigation-compose = "2.9.4"
+hilt-navigation-compose = "1.3.0"
+kotlinCoroutine = "1.10.2"
+hilt = "2.57.1"
+composeBom = "2025.09.00"
+coreKtx = "1.17.0"
+lifecycleViewmodelKtx = "2.9.4"
+# cpp
+# Github Stable Builds
+ndk = "28.2.13676358"
+api-target = "36"
+api-ndk-target = "35"
+api-min = "23"
+lifecycleRuntimeKtx = "2.9.3"
+
+[libraries]
+java-junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+androidx-compose-icons = { group = "androidx.compose.material", name = "material-icons-extended" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinCoroutine" }
+dagger = { module = "com.google.dagger:dagger", version.ref = "hilt" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "hilt" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+
